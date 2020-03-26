@@ -1,2 +1,49 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .third-type-box .time {
+        flex-basis: 131px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .second-type-box, .third-type-box {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .second-type-box .time {
+        margin-left: 0;
+        flex-basis: auto;
+    }
+
+    .third-type-box:first-of-type {
+        margin-left: 0;
+    }
+
+    .p-section-item {
+        flex-basis: auto;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .third-type-box:before {
+        content: none;
+    }
+
+    .third-type-box .time {
+        font-size: 3rem;
+        flex-basis: auto;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .third-type-box .image-program {
+        margin: 20px auto;
+
+    }
 }
