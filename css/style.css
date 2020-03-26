@@ -55,6 +55,49 @@ ul{
     max-width: 847px;
     margin: auto;
 }
+body{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+h1{
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 1.875rem;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+.bg-grey{
+    background-color: #c4c4c4;
+    color: white;
+    padding: 30px 0;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.time{
+    flex-basis: 131px;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 3rem;
+}
+.w-auto{
+    flex-basis: auto;
+    padding-left: 30px;
+}
+.mb-5{
+    margin-bottom: 0.3rem;
+}
+.t-uppercase{
+    text-transform: uppercase;
+}
 
 
 
